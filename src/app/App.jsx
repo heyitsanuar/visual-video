@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
 import AppRoutes from "./AppRoutes";
-import Header from "../shared/components/Header";
+import Header from "../shared/components/Header/Header";
 
 const App = () => {
   return (

@@ -1,18 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import logoImg from "../../../shared/assets/img/logo/transparent-white.png";
+import heroHqImg from "../../../shared/assets/img/heroes/gallery/hero-gallery-hq.jpg";
+import heroMqImg from "../../../shared/assets/img/heroes/gallery/hero-gallery-mq.jpg";
+import heroLqImg from "../../../shared/assets/img/heroes/gallery/hero-gallery-lq.jpg";
+import "./HeaderStyles.scss";
+
 const Header = () => {
   return (
     <header id='header' className='header'>
       <div id='header-menu' className='header__menu'>
         <div id='logo-container' className='header__logo'>
           <a href='#'>
-            <img
-              id='header-logo'
-              src='assets/img/logo/transparent-white.png'
-              alt=''
-              style={{ height: 52 }}
-            />
+            <img id='header-logo' src={logoImg} alt='' style={{ height: 52 }} />
           </a>
           <i
             id='header-btn-open'
@@ -42,9 +43,9 @@ const Header = () => {
         </div>
       </div>
       <picture>
-        <source srcset='assets/img/heroes/gallery/hero-gallery-hq.jpg' media='(min-width: 992px)' />
-        <source srcset='assets/img/heroes/gallery/hero-gallery-mq.jpg' media='(min-width: 768px)' />
-        <img srcset='assets/img/heroes/gallery/hero-gallery-lq.jpg' alt='' className='image' />
+        <source srcset={heroHqImg} media='(min-width: 992px)' />
+        <source srcset={heroMqImg} media='(min-width: 768px)' />
+        <img srcset={heroLqImg} alt='' className='image' />
       </picture>
       <div className='header__info'>
         <h1 className='header__title'>COBERTURA DE TUS EVENTOS</h1>
