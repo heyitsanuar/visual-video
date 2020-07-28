@@ -4,10 +4,10 @@ import { Switch, Route } from "react-router-dom";
 const AppRoutes = () => {
   return (
     <Switch>
-      <Route path='/' />
-      <Route path='/servicios' />
-      <Route path='/galeria' />
-      <Route path='/contacto' />
+      <Route exact path='/' />
+      <Route path='/servicios' render={() => {}} />
+      <Route path='/galeria' render={() => {}} />
+      <Route path='/contacto' render={() => {}} />
     </Switch>
   );
 };
