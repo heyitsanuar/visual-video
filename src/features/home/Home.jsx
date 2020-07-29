@@ -25,10 +25,10 @@ const Home = () => {
             eso se crearon los tacos de carnitas, la mejor creación desde la existencia del hombre,
             impreshionanti.
           </p>
-          <a href='' class='btn'>
+          <button class='btn'>
             LEER MÁS
             <span></span>
-          </a>
+          </button>
         </div>
       </section>
       <section class='events'>
@@ -113,10 +113,10 @@ const Home = () => {
                 alt=''
                 class='image lazyload'
               />
-              <a class='btn btn__service btn__service--left'>
+              <button class='btn btn__service btn__service--left'>
                 SIGUIENTE
                 <span></span>
-              </a>
+              </button>
             </div>
           </div>
           <div class='services__item slider--hide'>
@@ -127,10 +127,10 @@ const Home = () => {
                 alt=''
                 class='image lazyload'
               />
-              <a class='btn btn__service btn__service--right'>
+              <button class='btn btn__service btn__service--right'>
                 ANTERIOR
                 <span></span>
-              </a>
+              </button>
             </div>
             <div class='services__item-info services__item--yellow flex-center'>
               <div class='services__item-text'>
@@ -157,10 +157,10 @@ const Home = () => {
                 alt=''
                 class='image lazyload'
               />
-              <a class='btn btn__service btn__service--left'>
+              <button class='btn btn__service btn__service--left'>
                 SIGUIENTE
                 <span></span>
-              </a>
+              </button>
             </div>
           </div>
           <div class='services__item slider--hide'>
@@ -171,10 +171,10 @@ const Home = () => {
                 alt=''
                 class='image lazyload'
               />
-              <a class='btn btn__service btn__service--right'>
+              <button class='btn btn__service btn__service--right'>
                 ANTERIOR
                 <span></span>
-              </a>
+              </button>
             </div>
             <div class='services__item-info services__item--red flex-center'>
               <div class='services__item-text'>
@@ -201,10 +201,10 @@ const Home = () => {
                 alt=''
                 class='image lazyload'
               />
-              <a class='btn btn__service btn__service--left'>
+              <button class='btn btn__service btn__service--left'>
                 SIGUIENTE
                 <span></span>
-              </a>
+              </button>
             </div>
           </div>
           <div class='services__item slider--hide'>
@@ -215,10 +215,10 @@ const Home = () => {
                 alt=''
                 class='image lazyload'
               />
-              <a class='btn btn__service btn__service--right'>
+              <button class='btn btn__service btn__service--right'>
                 ANTERIOR
                 <span></span>
-              </a>
+              </button>
             </div>
             <div class='services__item-info services__item--purple flex-center'>
               <div class='services__item-text'>
