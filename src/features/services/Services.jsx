@@ -1,5 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Button from "../../shared/components/Controls/Button.jsx";
+
 import flowerFieldHq from "../../shared/assets/img/services/flower-field-edited-hq.jpg";
 import flowerFieldMq from "../../shared/assets/img/services/flower-field-edited-mq.jpg";
 import flowerFieldLq from "../../shared/assets/img/services/flower-field-edited-lq.jpg";
@@ -154,10 +155,7 @@ const Services = () => {
                 para que ningun detalle se escape. Capturamos cada segundo del evento de manera
                 profesional con video en alta calidad para que ningun detalle se escape.
               </p>
-              <Link to='/galeria' className='btn'>
-                GALERÍA
-                <span></span>
-              </Link>
+              <Button to='/galeria'>GALERIA</Button>
             </div>
           </div>
           <div className='caracteristica__image'>
@@ -185,10 +183,7 @@ const Services = () => {
                 para que ningun detalle se escape. Capturamos cada segundo del evento de manera
                 profesional con video en alta calidad para que ningun detalle se escape.
               </p>
-              <Link to='/galeria' className='btn'>
-                GALERÍA
-                <span></span>
-              </Link>
+              <Button to='/galeria'>GALERIA</Button>
             </div>
           </div>
         </div>
@@ -202,10 +197,7 @@ const Services = () => {
                 para que ningun detalle se escape. Capturamos cada segundo del evento de manera
                 profesional con video en alta calidad para que ningun detalle se escape.
               </p>
-              <Link to='/galeria' className='btn'>
-                GALERÍA
-                <span></span>
-              </Link>
+              <Button to='/galeria'>GALERIA</Button>
             </div>
           </div>
           <div className='caracteristica__image'>
@@ -233,10 +225,7 @@ const Services = () => {
                 para que ningun detalle se escape. Capturamos cada segundo del evento de manera
                 profesional con video en alta calidad para que ningun detalle se escape.
               </p>
-              <Link to='/galeria' className='btn'>
-                GALERÍA
-                <span></span>
-              </Link>
+              <Button to='/galeria'>GALERIA</Button>
             </div>
           </div>
         </div>

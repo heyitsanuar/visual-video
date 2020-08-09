@@ -1,7 +1,9 @@
 import React from "react";
+import Button from "../../shared/components/Controls/Button";
 
 import givehandImg from "../../shared/assets/img/home/give-a-hand.png";
 import flowerFieldImg from "../../shared/assets/img/home/flower-field-edited.png";
+
 const Events = () => {
   return (
     <div class='services__container' id='slider'>
@@ -29,19 +31,13 @@ const Events = () => {
         </div>
         <div class='services__item-image services__item-image--hide-at-small'>
           <img id='right-image' src={givehandImg} alt='' class='image lazyload' />
-          <button class='btn btn__service btn__service--left'>
-            SIGUIENTE
-            <span></span>
-          </button>
+          <Button className='btn__service btn__service--left'>SIGUIENTE</Button>
         </div>
       </div>
       <div class='services__item slider--hide'>
         <div class='services__item-image'>
           <img id='left-image' src={flowerFieldImg} alt='' class='image lazyload' />
-          <button class='btn btn__service btn__service--right'>
-            ANTERIOR
-            <span></span>
-          </button>
+          <Button className='btn__service btn__service--right'>ANTERIOR</Button>
         </div>
         <div class='services__item-info services__item--yellow flex-center'>
           <div class='services__item-text'>
@@ -63,19 +59,13 @@ const Events = () => {
         </div>
         <div class='services__item-image services__item-image--hide-at-small'>
           <img id='right-image' src={givehandImg} alt='' class='image lazyload' />
-          <button class='btn btn__service btn__service--left'>
-            SIGUIENTE
-            <span></span>
-          </button>
+          <Button className='btn__service btn__service--left'>SIGUIENTE</Button>
         </div>
       </div>
       <div class='services__item slider--hide'>
         <div class='services__item-image'>
           <img id='left-image' src={flowerFieldImg} alt='' class='image lazyload' />
-          <button class='btn btn__service btn__service--right'>
-            ANTERIOR
-            <span></span>
-          </button>
+          <Button className='btn__service btn__service--right'>ANTERIOR</Button>
         </div>
         <div class='services__item-info services__item--red flex-center'>
           <div class='services__item-text'>
@@ -97,19 +87,13 @@ const Events = () => {
         </div>
         <div class='services__item-image services__item-image--hide-at-small'>
           <img id='right-image' src={givehandImg} alt='' class='image lazyload' />
-          <button class='btn btn__service btn__service--left'>
-            SIGUIENTE
-            <span></span>
-          </button>
+          <Button className='btn__service btn__service--left'>SIGUIENTE</Button>
         </div>
       </div>
       <div class='services__item slider--hide'>
         <div class='services__item-image'>
           <img id='left-image' src={flowerFieldImg} alt='' class='image lazyload' />
-          <button class='btn btn__service btn__service--right'>
-            ANTERIOR
-            <span></span>
-          </button>
+          <Button className='btn__service btn__service--right'>ANTERIOR</Button>
         </div>
         <div class='services__item-info services__item--purple flex-center'>
           <div class='services__item-text'>

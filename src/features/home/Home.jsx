@@ -1,6 +1,7 @@
 import React from "react";
 
 import Events from "./Events";
+import Button from "../../shared/components/Controls/Button";
 
 import kissHqImg from "../../shared/assets/img/home/kiss-hq.jpg";
 import kissMqImg from "../../shared/assets/img/home/kiss-mq.jpg";
@@ -27,10 +28,7 @@ const Home = () => {
             eso se crearon los tacos de carnitas, la mejor creación desde la existencia del hombre,
             impreshionanti.
           </p>
-          <button class='btn'>
-            LEER MÁS
-            <span></span>
-          </button>
+          <Button>LEER MAS</Button>
         </div>
       </section>
       <section class='events'>

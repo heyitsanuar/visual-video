@@ -1,0 +1,83 @@
+.btn {
+  position: relative;
+  color: #1c1c1c;
+  font-weight: 600;
+  border: 1px solid #1c1c1c;
+  padding: 0.625rem 1.5625rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: none;
+
+  &:hover {
+    background: #1c1c1c;
+    color: #ffffff;
+  }
+
+  @media (min-width: 576px) {
+    padding: 0.8125rem 3.125rem;
+  }
+
+  span {
+    position: absolute;
+    border: 1px solid #1c1c1c;
+    top: -0.25rem;
+    left: 0.1875rem;
+    width: 6.5625rem;
+    height: 2.8125rem;
+
+    @media (min-width: 576px) {
+      top: -6px;
+      left: 5px;
+      width: 9.0625rem;
+      height: 3.4375rem;
+    }
+  }
+
+  &__service {
+    display: none;
+
+    @media (min-width: 576px) {
+      display: block;
+    }
+
+    @media (min-width: 576px) {
+      position: absolute;
+      bottom: -4.375rem;
+      bottom: 0;
+      background: #ffffff;
+    }
+
+    &--left {
+      @media (min-width: 576px) {
+        left: 0;
+        transform: translate(-50%, 50%);
+      }
+    }
+
+    &--right {
+      @media (min-width: 576px) {
+        right: 0;
+        transform: translate(50%, 50%);
+      }
+    }
+  }
+
+  &__icon {
+    &-pagination {
+      border: 1px solid #1c1c1c;
+      width: 1.875rem;
+      height: 1.875rem;
+    }
+  }
+
+  &__up {
+    position: fixed;
+    font-size: 1.875rem;
+    color: #1c1c1c;
+    background: #ffffff;
+    border-radius: 50%;
+    bottom: 2.5rem;
+    right: 2.5rem;
+    z-index: 1000;
+  }
+}
