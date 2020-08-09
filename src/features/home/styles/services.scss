@@ -1,0 +1,122 @@
+.services {
+  text-align: center;
+  padding-top: 9.375rem;
+  margin-bottom: 0;
+
+  @media (min-width: 576px) {
+    margin-bottom: 6.9375rem;
+  }
+
+  &__item {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 4.1875rem;
+    width: 100%;
+
+    @media (min-width: 576px) {
+      flex-wrap: nowrap;
+    }
+
+    &-image {
+      width: 100%;
+      height: 35vh;
+      order: -1;
+
+      @media (min-width: 576px) {
+        position: relative;
+        width: 13.75rem;
+        height: 28.125rem;
+        order: 1;
+        z-index: 300;
+      }
+
+      @media (min-width: 992px) {
+        width: 18.75rem;
+        height: 37.25rem;
+      }
+
+      @media (min-width: 1200px) {
+        width: 22.8125rem;
+      }
+
+      &--hide-at-small {
+        display: none;
+
+        @media (min-width: 576px) {
+          display: block;
+        }
+      }
+    }
+
+    &-info {
+      width: 100%;
+      height: 31.8125rem;
+      background: #ebf3f7;
+      height: 65vh;
+      order: -1;
+
+      @media (min-width: 576px) {
+        position: absolute;
+        top: 2.6875rem;
+        left: 50%;
+        height: 23.75rem;
+        transform: translateX(-50%);
+        order: 1;
+      }
+
+      @media (min-width: 992px) {
+        height: 31.8125rem;
+      }
+    }
+
+    &-text {
+      width: 80%;
+
+      @media (min-width: 576px) {
+        width: 12.5rem;
+      }
+
+      @media (min-width: 992px) {
+        width: 22.125rem;
+      }
+    }
+
+    &-title {
+      margin-top: 1.25rem;
+      margin-bottom: 2rem;
+
+      @media (min-width: 576px) {
+        margin-bottom: 1.25rem;
+      }
+
+      @media (min-width: 992px) {
+        margin-bottom: 3.125rem;
+      }
+    }
+
+    &--blue {
+      background: #cceffa;
+    }
+    &--yellow {
+      background: #f6e58d;
+    }
+    &--red {
+      background: #ffe3e0;
+    }
+    &--purple {
+      background: #eae6fd;
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2.5rem;
+
+    @media (min-width: 576px) {
+      display: none;
+    }
+  }
+}
